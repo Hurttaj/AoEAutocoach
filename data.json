@@ -1,0 +1,124 @@
+{
+    "strategies":[
+        {
+            "name": "Scouts",
+            "variations": [
+                {
+                    "name": "19 pop",
+                    "desc": "The fastest possible scouts build with most civs. Hit with the first 2 scouts to deny walls. Usually you have to delay eco techs for this. The goal is to keep the opponent open so you can scout, force idle time, and pick off villagers.",
+                    "attackTime": [660, 760],
+                    "weak":[],
+                    "wall": 0,
+                    "responses":[
+                        {
+                            "name":["Man-at-arms", "21 pop"],
+                            "desc":"This tells you what to do when 19 pop scouts vs 21 pop maa."
+                        },
+                        {
+                            "name":["Man-at-arms", "22 pop"],
+                            "desc":"This tells you what to do when 19 pop scouts vs 22 pop maa."
+                        }
+                    ]
+                },
+                {
+                    "name": "20 pop",
+                    "desc": "A variation of the scouts build which goes up a bit later than 19 pop, which gives a bit more resources to wall.",
+                    "attackTime": [685, 785],
+                    "weak":[],
+                    "wall": 1,
+                    "responses":[
+                        {
+                            "name":["Man-at-arms", "21 pop"],
+                            "desc":"This tells you what to do when 20 pop scouts vs 21 pop maa."
+                        },
+                        {
+                            "name":["Man-at-arms", "22 pop"],
+                            "desc":"This tells you what to do when 20 pop scouts vs 22 pop maa."
+                        }
+                    ]
+                },
+                {
+                    "name": "21 pop",
+                    "desc": "A beginner build which is easy to execute, but hits after many opponents have already fully walled their base.",
+                    "attackTime": [710, 810],
+                    "weak":[],
+                    "wall": 2,
+                    "responses":[
+                        {
+                            "name":["Man-at-arms", "21 pop"],
+                            "desc":"This tells you what to do when 21 pop scouts vs 21 pop maa."
+                        },
+                        {
+                            "name":["Man-at-arms", "22 pop"],
+                            "desc":"This tells you what to do when 21 pop scouts vs 22 pop maa."
+                        }
+                    ]
+                }
+            ],
+            "weak":["Early Walls", "Man-at-arms"],
+            "responses":[
+                {
+                    "name":["Man-at-arms", "21 pop"],
+                    "desc":"This tells you what to do when scouts (any variation) vs 21 pop maa"
+                },
+                {
+                    "name":["Man-at-arms"],
+                    "desc":"This tells you what to do when scouts (any variation) vs maa (any variation)"
+                }
+            ]
+        },
+        {
+            "name": "Man-at-arms",
+            "variations": [
+                {
+                    "name":"21 pop",
+                    "desc":"",
+                    "attackTime":[0, 0],
+                    "weak":[],
+                    "wall":0,
+                    "responses":[
+                        {
+                            "name":[],
+                            "desc":""
+                        }
+                    ]
+                },
+                {
+                    "name":"22 pop",
+                    "desc":"",
+                    "attackTime":[0, 0],
+                    "weak":[],
+                    "wall":0,
+                    "responses":[
+                        {
+                            "name":[],
+                            "desc":""
+                        }
+                    ]
+                }
+            ],
+            "weak":[],
+            "responses":[]
+        },
+        {
+            "name": "",
+            "variations": [
+                {
+                    "name":"",
+                    "desc":"",
+                    "attackTime":[0, 0],
+                    "weak":[],
+                    "wall":0,
+                    "responses":[
+                        {
+                            "name":[],
+                            "desc":""
+                        }
+                    ]
+                }
+            ],
+            "weak":[],
+            "responses":[]
+        }
+    ]
+}
