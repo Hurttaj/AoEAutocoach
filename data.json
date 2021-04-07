@@ -111,7 +111,7 @@
                     "wall":0,
                     "responses":[
                         {
-                            "name":[],
+                            "name":["Small walls"],
                             "desc":""
                         }
                     ]
@@ -124,7 +124,7 @@
                     "wall":0,
                     "responses":[
                         {
-                            "name":[],
+                            "name":["Small walls"],
                             "desc":""
                         }
                     ]
