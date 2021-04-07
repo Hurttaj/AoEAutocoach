@@ -101,6 +101,40 @@
             "responses":[]
         },
         {
+            "name": "Drush",
+            "variations": [
+                {
+                    "name":"Pre-mill",
+                    "desc":"Opening with 4 on wood, this build adds a barracks before the mill. While in most respects stronger than the 'standard' drush build, it is harder to manage and relies on quick boars and good saturation.",
+                    "attackTime":[0, 0],
+                    "weak":[],
+                    "wall":0,
+                    "responses":[
+                        {
+                            "name":[],
+                            "desc":""
+                        }
+                    ]
+                },
+                {
+                    "name":"Post-mill",
+                    "desc":"Easier to execute than the Pre-mill variation, this version is easier to scout and wall out, but can still serve the same purpose of buying time to wall the base.",
+                    "attackTime":[0, 0],
+                    "weak":[],
+                    "wall":0,
+                    "responses":[
+                        {
+                            "name":[],
+                            "desc":""
+                        }
+                    ]
+                }
+                
+            ],
+            "weak":[],
+            "responses":[]
+        },
+        {
             "name": "",
             "variations": [
                 {
